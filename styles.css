@@ -7,8 +7,20 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  
 }
 
+main {
+    flex: 1;
+}
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
 #generate-btn {
     background-color: #222f5b;
     color: white;
@@ -56,7 +68,4 @@ body {
 #quote-display {
     font-family: 'Harry Potter', sans-serif;
 }
-
-
-/* Adicione outros estilos conforme necessário */
 
