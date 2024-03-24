@@ -45,6 +45,7 @@ function generateQuote() {
     `;
     
     Swal.fire({
+        title: 'Quotes to Keep You Going ',
         text: quote,
         iconHtml: svgIcon,
         confirmButtonText: 'OK',

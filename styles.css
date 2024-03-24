@@ -1,3 +1,5 @@
+
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -8,7 +10,7 @@ body {
 }
 
 #generate-btn {
-    background-color: #4CAF50;
+    background-color: #222f5b;
     color: white;
     border: none;
     padding: 15px 32px;
@@ -23,7 +25,7 @@ body {
 }
 
 #generate-btn:hover {
-    background-color: #45a049;
+    background-color: #7FC7D9;
 }
 
 #generate-btn {
@@ -32,21 +34,29 @@ body {
     width: 30%; 
 
 }
-/* styles.css */
-.harry-potter-theme .swal2-title {
-    color: #c62828; 
-    font-family: 'HarryPotterFont', sans-serif; /* Use uma fonte do Harry Potter */
+
+.harry-potter-theme1 {
+    font-family: 'Harry Potter', sans-serif;                                                                                        
+}
+
+.swal2-icon {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .harry-potter-theme .swal2-popup {
-    background-color: #ffe0b2; /* Cor de fundo laranja claro */
-    border: 2px solid #c62828; /* Borda vermelha */
+    background-color: #222f5b; 
+    border: 2px solid #2c3e50; 
 }
 
 .harry-potter-theme .swal2-icon {
     font-size: 3em; /* Icon size */
  
 }
+
+#quote-display {
+    font-family: 'Harry Potter', sans-serif;
+}
+
 
 /* Adicione outros estilos conforme necessário */
 
