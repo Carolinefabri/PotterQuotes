@@ -1,5 +1,3 @@
-
-
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -8,34 +6,28 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Remova a duplicação da propriedade display */
     background-image: url(hp.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgba(255, 255, 255, 0.5);
-  
 }
+
 #quote-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh; 
-    margin: 30vh; 
-    background-color: rgba(255, 255, 255, 0.5); 
-    border: 2px solid black; 
-    box-sizing: border-box; 
-    border-radius: 20px; 
-    box-sizing: border-box; 
+    height: 60%; /* Ajuste a altura para 60% da altura da tela */
+    width: 80%; /* Adicione uma largura para preencher a largura da tela */
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: auto; /* Define as margens automáticas para centralizar verticalmente e horizontalmente */
 }
 
-footer {
-    background-color: #f0f0f0;
-    padding: 10px;
-    text-align: center;
-}
 #generate-btn {
     background-color: #222f5b;
     color: white;
@@ -91,5 +83,12 @@ footer {
     align-items: center;
     height: 100vh;
 }
+
+
+.swal2-popup {
+    color: white;
+}
+
+
 
 
